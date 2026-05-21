@@ -1,0 +1,150 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[left=0.55in,right=0.55in,top=0.6in,bottom=0.6in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{helvet}
+
+% Configuración de la fuente Sans-serif (moderna y limpia)
+\renewcommand{\familydefault}{\sfdefault}
+
+% Configuración de colores
+\definecolor{primary}{HTML}{111111}     % Casi negro para encabezados principales
+\definecolor{secondary}{HTML}{444444}   % Gris oscuro para subtítulos y texto secundario
+\definecolor{accent}{HTML}{000000}      % Negro para enlaces
+\definecolor{linecolor}{HTML}{CCCCCC}   % Gris claro para líneas divisorias
+
+% Configuración de hipervínculos
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    filecolor=accent,
+    urlcolor=secondary,
+    pdftitle={CV - Karla Guadalupe Carrillo Hernández},
+    pdfauthor={Karla Guadalupe Carrillo Hernández},
+    pdfsubject={Curriculum Vitae},
+    pdfkeywords={UX, UI, Frontend, Ingeniera en Sistemas, Desarrolladora Web}
+}
+
+% Ajustes de párrafos y márgenes
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Configuración de formato de secciones
+\titleformat{\section}
+  {\large\bfseries\scshape\color{primary}}
+  {}{0em}
+  {}
+  [\vspace{-3pt}\color{linecolor}\hrule\vspace{4pt}]
+
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+
+% Comando personalizado para entradas de experiencia y educación
+\newcommand{\resumeEntry}[4]{
+  \vspace{3pt}
+  \noindent
+  \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \small\color{secondary}#2 \\
+    \textit{#3} & \small\color{secondary}#4 \\
+  \end{tabular*}
+  \vspace{-3pt}
+}
+
+\begin{document}
+
+% ==================== ENCABEZADO ====================
+\begin{center}
+  {\Huge \bfseries \color{primary} Karla Guadalupe Carrillo Hernández} \\
+  \vspace{6pt}
+  \small
+  Ocotlán, Jalisco, México \ $\bullet$ \ 
+  \href{mailto:carrillohdezkarla@gmail.com}{carrillohdezkarla@gmail.com} \ $\bullet$ \ 
+  +52 392 183 7116 \ $\bullet$ \ 
+  \href{https://linkedin.com/in/karla-carrillo-hernandez}{linkedin.com/in/karla-carrillo-hernandez}
+\end{center}
+
+% ==================== SOBRE MÍ ====================
+\section{Sobre mí}
+\vspace{1pt}
+Me apasiona el diseño UX/UI y el desarrollo front-end, estoy lista para crear, liderar y aportar valor. Soy estudiante de Ingeniería en Sistemas Computacionales con experiencia en diseño de aplicaciones, desarrollo web y liderazgo de proyectos enfocados en el usuario. Busco crecer en roles de UX/UI o frontend donde pueda aplicar mi creatividad, liderazgo y atención al detalle para construir experiencias digitales significativas.
+
+% ==================== EDUCACIÓN ====================
+\section{Educación}
+
+\resumeEntry{Instituto Tecnológico de Ocotlán}{Ocotlán, Jalisco}{Ing. en Sistemas Computacionales \ $\bullet$ \ Prom. 95/100}{2022 -- Actualidad}
+
+\resumeEntry{CBTIS 49}{Ocotlán, Jalisco}{Técnico en Programación}{2019 -- 2022}
+
+% ==================== EXPERIENCIA ====================
+\section{Experiencia}
+
+\resumeEntry{Sistema Integral de Información (SII)}{Ocotlán, Jalisco}{Frontend Team Lead}{Enero -- Actualidad}
+\begin{itemize}[leftmargin=12pt, noitemsep, topsep=1pt]
+  \item Liderazgo de equipo frontend, coordinando tareas, tiempos de entrega y seguimiento de avances.
+  \item Desarrollo de interfaces y componentes web utilizando tecnologías modernas.
+  \item Participación en revisiones de código y buenas prácticas de desarrollo.
+\end{itemize}
+
+\resumeEntry{Automatización de Procesos -- BA Training}{Ocotlán, Jalisco}{Proyecto Personal}{Enero -- Actualidad}
+\begin{itemize}[leftmargin=12pt, noitemsep, topsep=1pt]
+  \item Diseño e implementación de mejoras para automatización de procesos administrativos.
+  \item Optimización de flujos de trabajo para reducir tiempos operativos y errores manuales.
+  \item Seguimiento y mejora continua de procesos internos.
+\end{itemize}
+
+% ==================== LIDERAZGO Y PROYECTOS ====================
+\section{Liderazgo, Proyectos y Actividades Escolares}
+
+\resumeEntry{Hewlett Packard Enterprise (HPE)}{Ocotlán, Jalisco}{Internship}{Agosto 2025 -- Diciembre 2025}
+\begin{itemize}[leftmargin=12pt, noitemsep, topsep=1pt]
+  \item Desarrollo de aplicación web para la gestión de POCs y analítica de soluciones, en un entorno colaborativo bajo metodología ágil (Scrum).
+  \item Participación en desarrollo frontend/backend y entrega de funcionalidades.
+  \item \textbf{Tecnologías:} HTML, CSS, JavaScript, Chart.js, Figma, Git
+\end{itemize}
+
+\resumeEntry{InnovaTecNM Nacional -- HackaTec}{Pachuca, Hidalgo}{Frontend Development \ $\bullet$ \ Team Member}{Noviembre 2025}
+\begin{itemize}[leftmargin=12pt, noitemsep, topsep=1pt]
+  \item Desarrollo de soluciones tecnológicas en entornos de alta presión, integrando habilidades técnicas y enfoque en resolución de problemas.
+  \item Trabajo colaborativo en equipo multidisciplinario.
+  \item \textbf{Tecnologías:} Next.js, React, TypeScript, Tailwind CSS, Git
+\end{itemize}
+
+\resumeEntry{Hackatec Nacional}{Ocotlán, Jalisco}{Diseño de Identidad de Equipo}{Noviembre 2025}
+\begin{itemize}[leftmargin=12pt, noitemsep, topsep=1pt]
+  \item Diseño de sudadera representativa del equipo para participación en evento nacional.
+  \item Desarrollo de concepto visual alineado a la identidad del Tecnológico Nacional de México campus Ocotlán.
+  \item \textbf{Tecnologías:} Figma
+\end{itemize}
+
+% ==================== CERTIFICACIONES ====================
+\section{Certificaciones}
+\begin{multicols}{2}
+\begin{itemize}[leftmargin=10pt, noitemsep, topsep=1pt]
+  \item Desafío Ada Lovelace Oracle Academy México -- 2025
+  \item Official Scrum Fundamentals Certification, AIBES -- 2025
+  \item Foundations of User Experience (UX) Design
+  \item Lego Scrum Workshop, HPE -- 2025
+  \item Build Dynamic User Interfaces (UI) for Websites
+\end{itemize}
+\end{multicols}
+
+\vspace{-6pt} % Ajuste para compensar espacio de multicols
+
+% ==================== HABILIDADES ====================
+\section{Habilidades y Tecnologías}
+\begin{itemize}[leftmargin=0pt, label={}, noitemsep, topsep=2pt, itemsep=2.5pt]
+  \item \textbf{Lenguajes de Programación:} JavaScript, Python, TypeScript, SQL.
+  \item \textbf{Tecnologías Web:} Next.js, HTML, CSS, Diseño Web Responsivo, JSON.
+  \item \textbf{Plataformas y Herramientas:} Git/GitHub, Figma, Flutter, VS Code, Antigravity, SQLite, Jira, ClickUp.
+  \item \textbf{Metodologías:} Agile, Scrum.
+  \item \textbf{Habilidades Blandas:} Liderazgo, Trabajo en equipo, Comunicación efectiva, Resolución de problemas.
+  \item \textbf{Idiomas:} Español (Nativo), Inglés (Básico-Intermedio).
+  \item \textbf{Intereses:} Diseño UI/UX, Desarrollo de Software, Aprendizaje continuo.
+\end{itemize}
+
+\end{document}
