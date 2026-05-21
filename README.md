@@ -37,5 +37,3 @@ Si deseas compilar el archivo `cv.tex` para generar el PDF:
 
 1.  **En la nube (Recomendado):** Sube el archivo `cv.tex` a [Overleaf.com](https://www.overleaf.com/) (es gratuito y no requiere instalación) y presiona **Recompile**.
 2.  **En tu computadora:** Instala una distribución de LaTeX como MiKTeX y ejecuta el comando `pdflatex cv.tex` en tu consola.
-
-Para ver instrucciones detalladas paso a paso, consulta el archivo [INSTRUCCIONES.md](INSTRUCCIONES.md).
