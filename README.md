@@ -9,7 +9,6 @@ Este repositorio contiene mi Curriculum Vitae profesional en dos formatos comple
 - **`index.html`**: El código fuente de la versión web. Cuenta con diseño responsivo y botones interactivos para imprimir o descargar en PDF.
 - **`cv.css`**: La hoja de estilos que define el diseño visual de la versión web, adaptado para pantallas móviles y optimizado para impresión física o a PDF (`@media print`).
 - **`cv.tex`**: El código fuente en LaTeX de la versión impresa clásica de mi CV. Estructurado con tipografía Helvetica, espaciados perfectos y enlaces funcionales a contacto y redes.
-- **`INSTRUCCIONES.md`**: Una guía detallada paso a paso sobre cómo compilar el archivo LaTeX de forma gratuita en la nube usando Overleaf o de manera local en tu equipo.
 
 ---
 
