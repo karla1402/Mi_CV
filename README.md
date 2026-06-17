@@ -18,8 +18,8 @@ Este repositorio contiene mi Curriculum Vitae profesional en dos formatos comple
 
 Una interfaz limpia, minimalista y responsiva que se adapta perfectamente a dispositivos móviles y de escritorio.
 
-- **Descarga Dinámica:** Integra la biblioteca `html2pdf.js` para generar y descargar un PDF perfecto directamente desde el navegador con un solo clic.
-- **Optimización de Impresión:** Cuenta con reglas CSS `@media print` específicas que ocultan elementos interactivos (botones) y ajustan márgenes al tamaño carta estándar al imprimir.
+- **Descarga Vectorial y Copiable:** Utiliza la función de impresión nativa del navegador para exportar a PDF, garantizando que el texto se mantenga como texto real y seleccionable (ideal para análisis de IA y reclutadores).
+- **Optimización de Impresión:** Cuenta con reglas CSS `@media print` específicas que ocultan elementos interactivos (botones) y ajustan márgenes al tamaño carta estándar al imprimir o guardar en PDF.
 
 ### 2. Versión Clásica e Impecable (LaTeX)
 
